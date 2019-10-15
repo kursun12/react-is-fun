@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background: black;
+}
+
+.Nav-Bar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Articles {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+.Article-Box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  width: 250px;
+  height: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+html, body
+{
+    height: 100%;
+}
