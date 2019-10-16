@@ -13,6 +13,14 @@
   height: 40vmin;
 }
 
+.white {
+  color: white
+}
+
+a {
+  text-decoration: none;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -25,11 +33,14 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  box-shadow: 0 7px 6px 4px rgba(0,0,0,.2);
 }
 
 .Articles {
   margin-top: 2em;
   margin-bottom: 4em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .Article-Box {
   display: flex;
@@ -39,7 +50,21 @@ footer {
 
 .card-image {
   width: 250px;
-  height: auto;
+  height: 270px;
+}
+
+.card-image-mini {
+  width: 200px;
+  height: 220px;
+}
+
+.card-clash {
+  max-width: 250px;
+}
+
+.padding-P {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .App-header {
