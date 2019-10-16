@@ -17,11 +17,6 @@ const Home = (props) => {
               ))}
             </div>
           </div>
-          
-          {/* <footer>
-          <p>disclaimer fam: </p>
-          </footer> */}
-          
         </body>
      );
 }
